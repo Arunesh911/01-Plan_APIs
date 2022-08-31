@@ -1,0 +1,21 @@
+spring:
+  datasource:
+      driver-class-name: org.h2.Driver
+      password: arshtech
+      url: jdbc:h2:mem:testdb
+      username: arshetch
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+plan-api:
+  messages:
+      palnSaveSucces: PLan Saved Successfully  
+      planSaveFail: Plan failed to save
+      planUpadteSuccess: Plan Updated Successfully
+      planUpdateFail: Plan Updation failed
+      planDeleteSuccess: Plan Dleted Successfully
+      planDeleteFail: Plan Delete Failed
+      planStatusChange: Plan status changed successfully
+      planStatusChangeFail: plan Status Changefailed
+      
